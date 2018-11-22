@@ -35,7 +35,7 @@ namespace BlackFryday
             {
                 priceHt = aArticle.PrixUnitaireHt;
                 tva = aArticle.Tva;
-                priceAdd = priceHt * tva;
+                priceAdd = (priceHt * tva)/100;
                 totalPrice += priceHt + priceAdd;
             }
             return totalPrice;
