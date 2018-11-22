@@ -29,7 +29,7 @@ namespace BlackFryday
             cli.ajouterCommande(com);
             
             Console.WriteLine(com.PrixTotal);
-            Console.WriteLine("test");
+            
             Console.ReadKey();
         }
     }
