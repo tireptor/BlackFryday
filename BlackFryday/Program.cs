@@ -27,7 +27,7 @@ namespace BlackFryday
 
             Client cli = new Client("nomClient1", "prenomClient1", adresse, "123");
             cli.ajouterCommande(com);
-            
+            // un com
             Console.WriteLine(com.PrixTotal);
             
             Console.ReadKey();
